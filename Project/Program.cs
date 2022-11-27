@@ -73,3 +73,8 @@ try
         PrintStringArray(newStringArray);
     }
 }
+
+catch(Exception)
+{
+    Console.WriteLine("\nНедопустимый ввод. Конвертация невозможна!");
+}
