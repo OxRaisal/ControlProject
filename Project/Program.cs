@@ -40,3 +40,15 @@ string[] CreateStringArray(string[] array, int numberSymbol = 3)
     }
     return newArray;
 }
+
+void PrintStringArray(string[] array)
+{
+    Console.Write("\nСозданный массив: [");
+    for(int i = 0; i < array.Length; i++)
+    {
+        Console.Write("'" + array[i] + "'");
+        if(i < array.Length -1) Console.Write(",");
+    }
+    Console.Write("]");
+    Console.WriteLine();
+}
